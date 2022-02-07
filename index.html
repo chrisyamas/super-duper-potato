@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Class 1 Lab</title>
+        <style>
+            h1 {
+                color:brown;
+                background-color: aquamarine;
+            }
+            #q1 {
+                color:cornflowerblue;
+                background-color: cornsilk;
+            }
+            #q2 {
+                color:crimson;
+                background-color: cyan;
+            }
+            #q3 {
+                color:darkblue;
+                background-color:darkgoldenrod;
+            }
+            #q4 {
+                color:purple;
+                background-color:indianred
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <main>
+            <h1>Class 1 Lab</h1>
+            <p id="q1">What is your name?</p>
+            <p id="q2">What is your favorite dessert?</p>
+            <p id="q3">Who is your favorite historical figure?</p>
+            <p id="q4">What is your favorite aquatic animal?</p>    
+        </main>
+
+        <script>
+            let user = prompt('What is your name?');
+            console.log('The user\'s name is ' + user);
+
+            let dessert = prompt('What is your favorite dessert?');
+            console.log('User\'s favorite dessert is ' + dessert);
+
+            let histFig = prompt('Who is your favorite historical figure?');
+            console.log('User\'s favorite historical figure is ' + histFig);
+
+            let aquaAnim = prompt('What is your favorite aquatic animal?');
+            console.log('User\'s favorite aquatic animal is ' + aquaAnim);
+
+            alert('OMG, ' + user + '! I couldn\'t agree more! Who WOULDN\'T want to eat ' + dessert + ' with ' + histFig + ' while riding on the back of a ' + aquaAnim + '?!');
+
+            document.write('OMG, ' + user + '! I couldn\'t agree more! Who WOULDN\'T want to eat ' + dessert + ' with ' + histFig + ' while riding on the back of a ' + aquaAnim + '?!');
+            
+        </script>
+    </body>
+</html>
