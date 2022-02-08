@@ -8,22 +8,6 @@
         color:brown;
         background-color: aquamarine;
       }
-      #q1 {
-        color:#51219d;
-        background-color: cornsilk;
-      }
-      #q2 {
-        color:#1914ed;
-        background-color: cyan;
-      }
-      #q3 {
-        color:#d3b278;
-        background-color:#201804;
-      }
-      #q4 {
-        color:#290c4e;
-        background-color:#e5a0a0;
-        }
     </style>
   </head>
 
@@ -31,28 +15,41 @@
         
     <main>
       <h1>Class 1 Lab</h1>
-      <p id="q1">What is your name?</p>
-      <p id="q2">What is your favorite dessert?</p>
-      <p id="q3">Who is your favorite historical figure?</p>
-      <p id="q4">What is your favorite aquatic animal?</p>    
+      <p style="color:#1914ed;background-color:cyan;">What is your name?</p>
+      <p style="color:#51219d;background-color:cornsilk;">What is your favorite dessert?</p>
+      <p style="color:#d3b278;background-color:#201804;">Who is your favorite historical figure?</p>
+      <p style="color:#290c4e;background-color:#e5a0a0;">What is your favorite aquatic animal?</p>    
     </main>
 
+    <footer>
+      &copy; Christopher Yamas<br />
+      <address>yamas.chris@gmail.com</address>
+      <br />
+    </footer>
     <script>
       let user = prompt('What is your name?');
       console.log('The user\'s name is ' + user);
 
+      alert('Hey there, ' + user + '! I got a few more questions for you, so get comfortable.')
+
       let dessert = prompt('What is your favorite dessert?');
       console.log('User\'s favorite dessert is ' + dessert);
+
+      alert('Okay, I\'m with you there. I could go for some ' + dessert + ' right about now actually...')
 
       let histFig = prompt('Who is your favorite historical figure?');
       console.log('User\'s favorite historical figure is ' + histFig);
 
+      alert('Ooooo ' + histFig + ' is a great choice.')
+
       let aquaAnim = prompt('What is your favorite aquatic animal?');
       console.log('User\'s favorite aquatic animal is ' + aquaAnim);
 
-      alert('OMG, ' + user + '! I couldn\'t agree more! Who WOULDN\'T want to eat ' + dessert + ' with ' + histFig + ' while riding on the back of a ' + aquaAnim + '?!');
+      alert('I SEA what you\'re saying, a ' + aquaAnim + ' is a pretty dope animal. Well, get ready because this is gonna knock your socks off...')
 
-      document.write('OMG, ' + user + '! I couldn\'t agree more! Who WOULDN\'T want to eat ' + dessert + ' with ' + histFig + ' while riding on the back of a ' + aquaAnim + '?!');
+      alert('I have great news for you, ' + user + '! There IS, in fact, an afterlife! And in it you\'ll be eating ' + dessert + ' with ' + histFig + ' while the two of you ride on the back of a ' + aquaAnim + ' for all of eternity!');
+
+      document.write('I have great news for you, ' + user + '! There IS, in fact, an afterlife! And in it you\'ll be eating ' + dessert + ' with ' + histFig + ' while the two of you ride on the back of a ' + aquaAnim + ' for all of eternity!');
             
     </script>
   </body>
